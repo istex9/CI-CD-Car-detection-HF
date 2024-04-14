@@ -10,3 +10,9 @@ jobs:
         uses: actions/checkout@v4
       - name: Create a file with content IXH8RO
         run: echo "IXH8RO" > neptun.txt
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add neptun.txt
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update neptun.txt" && git push)
