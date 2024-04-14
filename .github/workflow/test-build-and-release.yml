@@ -1,0 +1,12 @@
+name: Create File on Push
+
+on: [push]
+
+jobs:
+  create-file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Create a file with content IXH8RO
+        run: echo "IXH8RO" > neptun.txt
