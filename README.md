@@ -41,9 +41,9 @@ A házi feladat három részből áll:
 	
 05.12 Végleges Fejlesztői dokumentáció feltöltése és jelentkezés HF bemutatásra
 
-[![Actions Status](https://github.com/istex9/CICD-Car-Detection-HF/workflows/Test,%20build%20and%20release/badge.svg)](https://github.com/istex9/CICD-Car-Detection-HF/actions)
+[![Create File on Push](https://github.com/istex9/CICD-Car-Detection-HF/actions/workflows/test-build-and-release.yml/badge.svg)](https://github.com/istex9/CICD-Car-Detection-HF/actions/workflows/test-build-and-release.yml)
 
-Legfrissebb release: [Itt letölthető](https://github.com/istex9/CICD-Car-Detection-HF//releases/tag/latest)
+Legfrissebb release: [Itt letölthető](https://github.com/istex9/CICD-Car-Detection-HF/releases/tag/latest)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
